@@ -6,7 +6,30 @@
     <body>
         <h1>JavaScript Lab</h1>
         <script>
-        // Write your JavaScript code here
+            // String Operations
+            string1 = "Hello, World!"
+            string2 = "JavaScript is fun!"
+            console.log(string1.length)
+            stringconcat = string1 + ' ' + string2
+            console.log(stringconcat)
+            modstring2 = string2.replace("fun", "awesome")
+            console.log(modstring2)
+            //String Templates
+            name = "Alice"
+            age = 25
+            message = `My name is ${name} and I am ${age} years old`
+            console.log(message)
+            //Working with Dates
+            const date = new Date()
+            console.log(date)
+            year = date.getFullYear()
+            console.log(year)
+            month = date.getMonth()
+            console.log(month)
+            dayNumber = date.getDay()
+            console.log(dayNumber)
+            days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+            console.log(days[dayNumber])
         </script>
     </body>
 </html>
